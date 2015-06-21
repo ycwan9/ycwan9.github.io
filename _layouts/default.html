@@ -16,26 +16,35 @@
 <link rel="stylesheet" href="/css/default.css" type="text/css" />
 <style>
 .footer{
-height: 15px;
-font-size: 15px;
+ height: 15px;
+ font-size: 15px;
 }
 #main_icon {
-	height: 40px;
-	margin-top: 8px;
+ height: 40px;
+ margin-top: 8px;
 }
 .header {
-	width: 100%;
-	margin-top: 0;
+ width: 100%;
+ margin: 0;
+ background-color: #f0f0f0;
 }
 body{
  margin-top: 0;
+ margin-left: 0;
+ margin-right: 0;
+}
+#main{
+ margin-left: 8px;
+ margin-right: 8px;
+ margin-top: 0;
+ padding-top: 8px;
 }
 
 </style>
 </head>
 <body>
 <p class="header"><a href="/"><img id="main_icon" src="/img/head.svg" /></a></p>
-{{content}}
-<p class="footer"><a href="https://github.com/ycwan9/"><img src="https://github.com/favicon.ico" style="height:18px;" /><span>Fork me on GitHub</span></a></p>
+<div id="main">{{content}}</div>
+<p class="<footer"><a href="https://github.com/ycwan9/"><img src="https://github.com/favicon.ico" style="height:18px;" align="bottom" /><span>Fork me on GitHub</span></a></p>
 </body>
 </html>
