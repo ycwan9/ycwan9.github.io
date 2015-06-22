@@ -1,5 +1,6 @@
 #vim
 *~
+*.swp
 
 #Inkscape
 *.ink.svg
