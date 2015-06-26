@@ -36,25 +36,8 @@
        y="572.36218"
        id="rect2987"
        style="fill:#f0f0f0;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       width="80"
-       height="240"
-       x="40"
-       y="612.36218"
-       id="rect3757"
-       style="fill:#90e1df;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       width="80"
-       height="240"
-       x="360"
-       y="612.36218"
-       id="rect3757-4"
-       style="fill:#90e1df;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       width="400"
-       height="80"
-       x="40"
-       y="772.36218"
+    <path
+       d="m 40,612.36218 80,0 0,160 240,0 0,-160 80,0 0,240 -160,0 0,80 -80,0 0,-80 -160,0 z"
        id="rect3757-6"
        style="fill:#90e1df;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <rect
@@ -63,13 +46,6 @@
        x="200"
        y="612.36218"
        id="rect3757-8"
-       style="fill:#90e1df;fill-opacity:1;fill-rule:nonzero;stroke:none" />
-    <rect
-       width="80"
-       height="160"
-       x="200"
-       y="772.36218"
-       id="rect3757-8-7"
        style="fill:#90e1df;fill-opacity:1;fill-rule:nonzero;stroke:none" />
     <rect
        width="80"
