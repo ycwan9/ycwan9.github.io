@@ -1,2 +1,2 @@
 # ycwan9.github.io
-This is y blog
+This is my blog
