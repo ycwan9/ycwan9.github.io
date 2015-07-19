@@ -9,12 +9,12 @@ title: bilibile2mobile bookmraklet
 适用于不想开 Flash Player 的。
 </p>
 <p>
-<code>
+{% highlight js %}
     av_id=/bilibili\.com\/video\/av([0-9]+)\//g.exec(location.href)[1];
     if (av_id){
         location.href="http://www.bilibili.com/mobile/video/av"+av_id+".html";
     }
-</code>    
+{% endhighlight %}  
 </p>
 <p>
 <a href="javascript:av_id=/bilibili\.com\/video\/av([0-9]+)\//g.exec(location.href)[1];if (av_id){location.href=&quot;http://www.bilibili.com/mobile/video/av&quot;+av_id+&quot;.html&quot;}" >bilibili2mobile</a>
