@@ -1,0 +1,26 @@
+# Dependencies
+#markdown:         redcarpet
+pygments:         true
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            ycwan9
+#tagline:          'A Jekyll theme'
+description:      "ycwan9's home page"
+description_end:  'ycwan9 with <a href="http://jekyllrb.com/" >Jekyll</a>, theme: <a href="http://lanyon.getpoole.com/">Lanyon</a> by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+url:              https://ycwan9.github.io
+
+author:
+  name:           'ycwan9'
+  url:            https://ycwan9.github.io
+
+paginate:         5
+
+# Custom vars
+version:          2.0.0
+
+github:
+  repo:           https://github.com/ycwan9/
+  name:           ycwan9.github.io

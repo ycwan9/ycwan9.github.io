@@ -2,9 +2,6 @@
 *~
 *.swp
 
-#Inkscape
-*.ink.svg
-
 #tmp&log
 *.log
 *.tmp
