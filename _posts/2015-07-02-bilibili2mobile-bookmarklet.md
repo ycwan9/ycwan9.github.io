@@ -9,10 +9,10 @@ title: bilibile2mobile bookmraklet
 
 <p>
 {% highlight js %}
-    av_id=/bilibili\.com\/video\/av([0-9]+)\//g.exec(location.href)[1];
-    if (av_id){
-        location.href="http://www.bilibili.com/mobile/video/av"+av_id+".html";
-    }
+av_id=/bilibili\.com\/video\/av([0-9]+)\//g.exec(location.href)[1];
+if (av_id){
+    location.href="http://www.bilibili.com/mobile/video/av"+av_id+".html";
+}
 {% endhighlight %}  
 </p>
 
