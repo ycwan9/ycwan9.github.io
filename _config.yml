@@ -9,7 +9,7 @@ permalink:        pretty
 title:            ycwan9
 #tagline:          'A Jekyll theme'
 description:      "ycwan9's home page"
-description_end:  'ycwan9 with <a href="http://jekyllrb.com/" >Jekyll</a>, <br />theme: <a href="http://lanyon.getpoole.com/">Lanyon</a> by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description_end:  '<a href="/">ycwan9</a> with <a href="http://jekyllrb.com/" >Jekyll</a>, <br />theme: <a href="http://lanyon.getpoole.com/">Lanyon</a> by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
 url:              https://ycwan9.github.io
 
 author:
