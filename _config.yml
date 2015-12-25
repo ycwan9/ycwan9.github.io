@@ -24,3 +24,6 @@ version:          2.0.0
 github:
   repo:           https://github.com/ycwan9/
   name:           ycwan9.github.io
+
+disqus:
+  enable:         false
