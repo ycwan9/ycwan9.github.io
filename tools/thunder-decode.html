@@ -7,19 +7,20 @@ title: Thunder Decode
 function th_decode() {
     s = document.getElementById("input").value;
     if (s.length < 10) {
-        alert("URL to short!");
-        return 0;
+        alert("URL to short!")
+        return 0
     }
     else {
-        s = s.replace(/\n/g, "");
-        s = s.replace(/\r/g, "");
-        //alert(s.substring(10));
-        o = atob(s.substring(10));
+        s = s.replace(/\n/g, "")
+        s = s.replace(/\r/g, "")
+        //alert(s.substring(10))
+        o = atob(s.substring(10))
         //alert(o)
-        o = o.substring(2, o.length-2);
-        document.getElementById("output").value = o;
+        o = o.substring(2, o.length-2)
+		o = decodeURIComponent(o)
+        document.getElementById("output").value = o
     }
-    return o ;
+    return o
 }
 </script>
 <p>This a simple tool to decode the "thunder://" URL to the real URL.</p>
